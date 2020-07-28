@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tic-Tac-Toe</title>
+    <link rel="shortcut icon" href="photos/Untitled.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/TicTacToe.css">
+  </head>
+  <body class="">
+    <div class="container m-auto" id="select">
+      <div class="jumbotron text-center d-flex justify-content-center align-items-center" id="jumbo">
+        <div class="row">
+          <div class="col">
+            <h1 class="display-4" id="tic">Tic-Tac-Toe</h1><br><br>
+            <p class="lead" id="sentence">Would you like to play as X or O?</p><br><br>
+            <a class="btn btn-dark btn-lg selection mx-3" href="#" role="button" id="selectX">X</a>
+            <a class="btn btn-dark btn-lg selection mx-3" href="#" role="button" id="selectO">O</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5 d-none" id="container">
+      <div class="row row1">
+        <div class="col-4" id="box1">
+          <p class="text-center" id="box1Text"></p>
+        </div>
+        <div class="col-4" id="box2">
+          <p class="text-center" id="box2Text"></p>
+        </div>
+        <div class="col-4" id="box3">
+          <p class="text-center" id="box3Text"></p>
+        </div>
+      </div>
+      <div class="row row1">
+        <div class="col-4" id="box4">
+          <p class="text-center" id="box4Text"></p>
+        </div>
+        <div class="col-4" id="box5">
+          <p class="text-center" id="box5Text"></p>
+        </div>
+        <div class="col-4" id="box6">
+          <p class="text-center" id="box6Text"></p>
+        </div>
+      </div>
+      <div class="row row1">
+        <div class="col-4" id="box7">
+          <p class="text-center" id="box7Text"></p>
+        </div>
+        <div class="col-4" id="box8">
+          <p class="text-center" id="box8Text"></p>
+        </div>
+        <div class="col-4" id="box9">
+          <p class="text-center" id="box9Text"></p>
+        </div>
+      </div>
+      <div class="row row1">
+        <div class="col-8 mx-auto my-auto lead" id="win">
+          <p> </p>
+        </div>
+      </div>
+      <form class="" action="TicTacToe.html" method="post">
+        <button type="submit" class="mx-auto btn btn-dark btn-lg btn-block w-50" href="TicTacToe.html" id="reset">Reset</button>
+      </form>
+    </div>
+    <div class="position-fixed w-100 text-center" id="footer">
+      <span>&copy; 2019 David Ditto All Rights Reserved.</span>
+    </div>
+
+    <script src="js/jquery-3.2.1.min.js" charset="utf-8"></script>
+    <script src="js/bootstrap.bundle.min.js" charset="utf-8"></script>
+    <script src="js/TicTacToe.js" charset="utf-8"></script>
+  </body>
+</html>
